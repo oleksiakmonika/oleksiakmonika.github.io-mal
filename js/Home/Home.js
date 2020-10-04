@@ -11,7 +11,7 @@ const Home = () => {
         <div className='containerHome'>
            <img className="photo" src={main}/>
         </div>
-            <p className='quotation'>"Czlowiek nigdy nie pozbędzie się tego, o czym milczy"</p>
+            <p className='quotation'>"Człowiek nigdy nie pozbędzie się tego, o czym milczy"</p>
             <p className='quotation'> Karel Čapek</p>
         <Footer/>
     </div>
