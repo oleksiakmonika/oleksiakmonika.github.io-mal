@@ -1,0 +1,120 @@
+@media (max-width: 840px) {
+  .divDesktop {
+    display: none;
+  }
+  .border {
+    display: none;
+  }
+  .occupation {
+    margin-bottom: 0;
+  }
+  .right p {
+    text-align: center;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutMe, .offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .margin {
+    margin: 0;
+  }
+  .containerHome {
+    margin: 5% 10%;
+  }
+ .offerPhoto{
+    width: 80vw;
+   margin-bottom: 10px;
+   border: 1px solid $lightgrey;
+  }
+ #margaret{
+    width: 60vw;
+
+  }
+  .spaceRight{
+    padding-right: 0;
+  }
+  .center1{
+    text-align: center;
+  }
+}
+
+@media (min-width: 840px) {
+  .divMobile {
+    display: none;
+  }
+  .containerHome {
+    margin: 5% 10%;
+  }
+  .occupation {
+    height: 40px;
+  }
+  .offer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .aboutMe {
+    display: block;
+    //align-items: center;
+  }
+  //.margin {
+  //  margin: 0 5% 0 15%
+  //}
+  .offerPhoto{
+    width: 40vw;
+    margin: 0 0 0 10px;
+    border: 1px solid $lightgrey;
+  }
+  #margaret{
+    width: 45vw;
+    float: left;
+    padding: 0 30px 0 0 ;
+  }
+  .spaceRight{
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .divMobile {
+    display: none;
+  }
+  .containerHome {
+    margin: 5% 10%;
+  }
+  .occupation {
+    height: 50px;
+  }
+  //.margin {
+  //  margin: 0 2% 0 15%
+  //}
+  .offerPhoto{
+    width: 40vw;
+    margin: 0 0 0 10px;
+    border: 1px solid $lightgrey;
+
+  }
+  #margaret{
+    width: 45vw;
+    float:left;
+    padding: 0 30px 0 0 ;
+  }
+  .spaceRight{
+    padding-right: 30px;
+  }
+  .aboutMe{
+    display: block;
+    //flex-direction: column;
+    //align-items: center;
+  }
+  .offer{
+    display: flex;
+    justify-content: space-between;
+  }
+}
